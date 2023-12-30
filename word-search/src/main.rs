@@ -61,12 +61,7 @@ impl Solution {
 
             let next_pos: Vec<(i32, i32)> = (match w.current_pos {
                 Some((i, j)) => {
-                    let v = vec![
-                        (i + 1, j.clone()),
-                        (i - 1, j.clone()),
-                        (i.clone(), j + 1),
-                        (i.clone(), j - 1),
-                    ];
+                    let v = vec![(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)];
                     v
                 }
                 None => h_board.keys().cloned().collect(),
