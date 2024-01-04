@@ -1,3 +1,5 @@
+https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/submissions/?envType=daily-question&envId=2024-01-04
+
 You are given a 0-indexed array nums consisting of positive integers.
 
 There are two types of operations that you can apply on the array any number of times:
